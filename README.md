@@ -113,21 +113,37 @@ Please configure your own credentials locally.
 ## 📸 Screenshots
 Patient Dashboard
 Family Dashboard
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ae2e3062-c422-4f56-87bb-93179a4685e2" />
-<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/df06f302-858d-4757-8152-c991e53b095f" />
-<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d6808ec9-760e-4437-9680-3fb11b6f47da" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/9cf3de67-1319-4ad8-9efe-d070705d4b77" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/d1c085f5-6c16-4a94-b43b-fe3de40374a9" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/1d5108e7-b739-4a3d-8244-f39810baffe5" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/c3d8bd23-750f-4870-bb62-f485e5891bc7" />
-<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d218a4d5-5cd9-4864-a9d8-b44122591f8a" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/455ec510-4abf-4786-ad89-4f99fa16437e" />
-<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/db9e791f-8ca3-4443-b4fd-430c7c430f28" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/3faf2d71-1e78-4ebf-9030-95789b9b8d30" />
-<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e017c907-cf93-4296-a080-22a8f7d8c3ce" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/93e06046-527f-4f95-af40-eaf128566e36" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
 <img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/169d51d7-5925-4b55-90b7-10b7524b59d6" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
+<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/df06f302-858d-4757-8152-c991e53b095f" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ae2e3062-c422-4f56-87bb-93179a4685e2" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/93e06046-527f-4f95-af40-eaf128566e36" />
+<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e017c907-cf93-4296-a080-22a8f7d8c3ce" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/3faf2d71-1e78-4ebf-9030-95789b9b8d30" />
+<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/db9e791f-8ca3-4443-b4fd-430c7c430f28" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/455ec510-4abf-4786-ad89-4f99fa16437e" />
+<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d218a4d5-5cd9-4864-a9d8-b44122591f8a" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/c3d8bd23-750f-4870-bb62-f485e5891bc7" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/1d5108e7-b739-4a3d-8244-f39810baffe5" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/d1c085f5-6c16-4a94-b43b-fe3de40374a9" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/9cf3de67-1319-4ad8-9efe-d070705d4b77" />
+<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d6808ec9-760e-4437-9680-3fb11b6f47da" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
