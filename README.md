@@ -112,6 +112,7 @@ Please configure your own credentials locally.
 
 ## 📸 Screenshots
 Patient Dashboard
+
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ece4e57d-98cd-45f3-81d4-cb8b5e1b078b" />
 <img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1e307cbf-6dc0-48c2-bf35-f05635407fa9" />
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/1aa29c65-1a84-444b-99dd-bfd55740196c" />
@@ -124,6 +125,7 @@ Patient Dashboard
 
 
 Family Dashboard
+
 <img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/169d51d7-5925-4b55-90b7-10b7524b59d6" />
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
 <img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/df06f302-858d-4757-8152-c991e53b095f" />
@@ -140,27 +142,8 @@ Family Dashboard
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/9cf3de67-1319-4ad8-9efe-d070705d4b77" />
 <img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d6808ec9-760e-4437-9680-3fb11b6f47da" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-## 📸video
 
-
-
----
 
 ## 🌟 Future Improvements
 
