@@ -1,0 +1,5 @@
+ 
+*.json
+serviceAccountKey.json
+firebase_config.json
+target/

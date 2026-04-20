@@ -1,0 +1,169 @@
+package com.neurobridge;
+
+
+
+import javafx.application.Application;
+import javafx.geometry.*;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
+import javafx.scene.text.*;
+import javafx.stage.Stage;
+
+public class Level3 extends Application {
+
+    private Label scoreLabel = new Label(); // Score label
+
+    @Override
+    public void start(Stage primaryStage) {
+        BorderPane root = new BorderPane();
+        root.setPadding(new Insets(30));
+        root.setStyle(
+            "-fx-background-image: url('/Assets/Images/BG7.jpeg');" +
+            "-fx-background-size: cover;" +
+            "-fx-background-repeat: no-repeat;" +
+            "-fx-background-position: center center;"
+        );
+
+        // Title and Quote
+        Text title = new Text("Level 3 - Echoes of Belongings");
+        title.setFont(Font.font("Arial", FontWeight.BOLD, 28));
+        title.setFill(Color.BLACK);
+
+        Text quote = new Text("“Belongings hold pieces of our stories — can you recall theirs?”");
+        quote.setFont(Font.font("Georgia", FontPosture.ITALIC, 20));
+        quote.setFill(Color.DARKSLATEGRAY);
+
+        VBox topBox = new VBox(15, title, quote);
+        topBox.setAlignment(Pos.TOP_LEFT);
+        BorderPane.setAlignment(topBox, Pos.TOP_LEFT);
+        root.setTop(topBox);
+
+        // Image
+        Image image = new Image("/Assets/Images/bike.jpeg"); // Change as needed
+        ImageView imageView = new ImageView(image);
+        imageView.setFitWidth(200);
+        imageView.setPreserveRatio(true);
+        imageView.setSmooth(true);
+
+        // Prompt
+        Label povLabel = new Label("What does this item mean to you?");
+        povLabel.setFont(Font.font("Verdana", FontWeight.NORMAL, 16));
+        povLabel.setTextFill(Color.DARKSLATEBLUE);
+
+        TextArea povInput = new TextArea();
+        povInput.setPromptText("Share your thoughts...");
+        povInput.setWrapText(true);
+        povInput.setPrefRowCount(6);
+        povInput.setMaxWidth(600);
+        povInput.setStyle(
+            "-fx-control-inner-background: lavender;" +
+            "-fx-font-size: 14px;" +
+            "-fx-border-color: #8e9ed1;" +
+            "-fx-border-radius: 6;" +
+            "-fx-background-radius: 6;"
+        );
+
+        VBox centerBox = new VBox(20, imageView, povLabel, povInput);
+        centerBox.setAlignment(Pos.TOP_CENTER);
+        centerBox.setPadding(new Insets(80, 20, 20, 20));
+        root.setCenter(centerBox);
+
+        // Buttons
+        Button backButton = new Button("⬅ Back");
+        Button submitButton = new Button("Check");
+        Button nextButton = new Button("Next ➡");
+        nextButton.setDisable(true);
+
+        styleButton(backButton);
+        styleButton(submitButton);
+        styleButton(nextButton);
+
+        // Feedback
+        Label resultLabel = new Label();
+        resultLabel.setTextFill(Color.DARKGREEN);
+        resultLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 16));
+        resultLabel.setVisible(false);
+
+        scoreLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 16));
+        scoreLabel.setTextFill(Color.DARKBLUE);
+        scoreLabel.setVisible(false);
+
+        ImageView statusImage = new ImageView();
+        statusImage.setFitHeight(80);
+        statusImage.setFitWidth(80);
+        statusImage.setVisible(false);
+
+        // Check logic
+        submitButton.setOnAction(e -> {
+            String input = povInput.getText().toLowerCase();
+            int score = 0;
+
+            boolean keyword1 = input.contains("first");
+            boolean keyword2 = input.contains("bike");
+
+            if (keyword1) score++;
+            if (keyword2) score++;
+
+            scoreLabel.setText("Score: " + score + "/2");
+            scoreLabel.setVisible(true);
+
+            if (score >= 2) {
+                resultLabel.setText("Level Cleared! Beautiful recollection.");
+                statusImage.setImage(new Image("file:src/main/resources/Images/Assets/levelcleared.png"));
+                nextButton.setDisable(false);
+            } else {
+                resultLabel.setText("Try Again: Mention at least two correct aspects.");
+                statusImage.setImage(new Image("file:src/main/resources/Images/Assets/tryagain.png"));
+                nextButton.setDisable(true);
+            }
+
+            resultLabel.setVisible(true);
+            statusImage.setVisible(true);
+        });
+
+        // Navigation
+        backButton.setOnAction(e -> {
+            try {
+                new Level2().start(new Stage()); // Adjust to your previous level
+                primaryStage.close();
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+        });
+
+        nextButton.setOnAction(e -> {
+            try {
+                new Level3B().start(new Stage()); // Continue to next part
+                primaryStage.close();
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+        });
+
+        VBox resultBox = new VBox(10, scoreLabel, resultLabel, statusImage);
+        resultBox.setAlignment(Pos.CENTER);
+
+        HBox navButtons = new HBox(15, backButton, submitButton, nextButton);
+        navButtons.setAlignment(Pos.CENTER_RIGHT);
+        navButtons.setPadding(new Insets(20));
+
+        VBox bottomBox = new VBox(10, resultBox, navButtons);
+        bottomBox.setAlignment(Pos.CENTER_RIGHT);
+        root.setBottom(bottomBox);
+
+        Scene scene = new Scene(root, 1550, 800);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Level 3 - Echoes of Belongings");
+        primaryStage.show();
+    }
+
+    private void styleButton(Button button) {
+        button.setStyle("-fx-background-color: #5b8bd8; -fx-text-fill: white; -fx-font-size: 14px; -fx-background-radius: 6;");
+        button.setOnMouseEntered(e -> button.setStyle("-fx-background-color: #3e6cb7; -fx-text-fill: white; -fx-font-size: 14px; -fx-background-radius: 6;"));
+        button.setOnMouseExited(e -> button.setStyle("-fx-background-color: #5b8bd8; -fx-text-fill: white; -fx-font-size: 14px; -fx-background-radius: 6;"));
+    }
+}
