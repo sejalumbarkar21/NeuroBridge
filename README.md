@@ -112,15 +112,17 @@ Please configure your own credentials locally.
 
 ## 📸 Screenshots
 Patient Dashboard
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/61425414-c6a0-4e02-9672-b6585a2a4de7" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/dc6140f1-23ec-4a1f-94b7-e907662a6bf3" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/57786eb6-a22a-4750-b965-966c0c8e8040" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/d9b94f05-66ad-4f4b-b8d3-2edc831ed96c" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/e8e0e05a-844f-4e07-b06b-020ec6fbb00f" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/9e1b1e5b-1290-478f-8d8c-b3e6b497b3e6" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/1aa29c65-1a84-444b-99dd-bfd55740196c" />
-<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1e307cbf-6dc0-48c2-bf35-f05635407fa9" />
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ece4e57d-98cd-45f3-81d4-cb8b5e1b078b" />
+<img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1e307cbf-6dc0-48c2-bf35-f05635407fa9" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/1aa29c65-1a84-444b-99dd-bfd55740196c" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/9e1b1e5b-1290-478f-8d8c-b3e6b497b3e6" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/e8e0e05a-844f-4e07-b06b-020ec6fbb00f" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/d9b94f05-66ad-4f4b-b8d3-2edc831ed96c" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/57786eb6-a22a-4750-b965-966c0c8e8040" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/dc6140f1-23ec-4a1f-94b7-e907662a6bf3" />
+<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/61425414-c6a0-4e02-9672-b6585a2a4de7" />
+
+
 Family Dashboard
 <img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/169d51d7-5925-4b55-90b7-10b7524b59d6" />
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
