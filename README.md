@@ -115,8 +115,6 @@ Patient Dashboard
 Family Dashboard
 <img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/169d51d7-5925-4b55-90b7-10b7524b59d6" />
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
-<img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ddbf8e9d-56d0-4144-bd29-58a2f8d65ea1" />
 <img width="2408" height="1080" alt="Image" src="https://github.com/user-attachments/assets/df06f302-858d-4757-8152-c991e53b095f" />
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/ae2e3062-c422-4f56-87bb-93179a4685e2" />
 <img width="1600" height="717" alt="Image" src="https://github.com/user-attachments/assets/93e06046-527f-4f95-af40-eaf128566e36" />
